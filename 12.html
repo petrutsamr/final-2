@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма для заказа товаров</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+    * {
+    font-family: "Georgia", sans-serif;
+    color: #2c3e50;
+}
+body {
+        background-color: #e2edf8;
+    }
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+        
+
+.nav-link.active {
+            background-color: #d7e0e6;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+.section-nav {
+            background: #f8f9fa;
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+.container_contact {
+    background-color:  #d4e5f0;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+ <nav class="navbar navbar-expand-sm navbar-light bg-light justify-self-center">
+        <div class="container justify-content-center">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="#navbarNav" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item">
+                        <a class="nav-link d-flex flex-column align-items-center" aria-current="page" href="index.html">
+                            <span>Главная</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex flex-column align-items-center" href="shop.html">
+                            <span>Магазин</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex flex-column align-items-center" href="12.html">
+
+                            <span>Заказать товар</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</nav>
+    <div class="section-nav text-center">
+    <a href="#contact" class="btn btn-sm btn-outline-info mx-1">Контакты</a>
+    </div>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <h2 class="text-center mb-4">Форма для заказа товаров</h2>
+            
+            <form action="https://www.google.com/search" id="UserEnter" name="UserEnter" target="_blank" 
+                  class="border p-4 rounded bg-white">
+                
+                <input type="hidden" name="q" value="search">
+                
+                <div class="mb-3 text-center">
+                    <h3 class="form-label d-block">Название товара:</h3>
+                    <input type="text" name="product_name" class="form-control mx-auto w-75" value="Диспенсер">
+                </div>
+                
+                <div class="mb-3 text-center">
+                    <h3 class="form-label d-block">Количество:</h3>
+                    <input type="number" name="quantity" class="form-control mx-auto w-50" value="1">
+                </div>
+                
+                <fieldset class="mb-3 border p-3 rounded">
+                    <h3 class="w-auto px-2">Способ доставки:</h3>
+                    <div class="text-center">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="delivery" id="courier" value="Курьером" checked>
+                            <p class="form-check" for="courier">Курьером</p>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="delivery" id="pickup" value="Самовывоз">
+                            <p class="form-check" for="pickup">Самовывоз</p>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="delivery" id="post" value="Почта">
+                            <p class="form-check" for="post">Почта</p>
+                        </div>
+                    </div>
+                </fieldset>
+                
+                <fieldset class="mb-3 border p-3 rounded">
+                    <h3 class="w-auto px-2">Дополнительные услуги:</h3>
+                    <div class="text-center">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="services" id="gift" value="Подарочная упаковка">
+                            <p class="form-check-label" for="gift">Подарочная упаковка</p>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="services" id="express" value="Экспресс-доставка">
+                            <p class="form-check-label" for="express">Экспресс-доставка</p>
+                        </div>
+                    </div>
+                </fieldset>
+                
+                <div class="mb-3 text-center">
+                    <p class="form-label d-block">Предпочтительная дата доставки:</p>
+                    <input type="date" name="date" class="form-control mx-auto w-75" value="2025-01-01">
+                </div>
+                
+                <div class="mb-3 text-center">
+                    <p class="form-label d-block">Комментарии к заказу:</p>
+                    <textarea name="order_comment" class="form-control mx-auto w-100" rows="5" placeholder="Введите ваши комментарии..."></textarea>
+                </div>
+                
+                <div class="text-center">
+                    <input type="submit" name="submit" value="Отправить" class="btn btn-info btn-lg px-5">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<br>
+<footer class="container_contact" id="contact">
+        <div class="container">
+            <h3 class="text-center mb-5">Контакты</h3>
+            <div class="row text-center">
+                <div class="col-md-3 mb-3">
+            
+                    
+                        <strong>Телефон:</strong><br>+7 (999) 123-45-67
+                    </a>
+                </div>
+                <div class="col-md-3 mb-3">
+                    
+                        
+                        <strong>Email:</strong><br>info@astsypets.ru
+                    </a>
+                </div>
+                <div class="col-md-3 mb-3">
+
+                        
+                        <strong>Адрес:</strong><br>г. Москва, ул. Пушкина, д. 1
+                    </a>
+                </div>
+                <div class="col-md-3 mb-3">
+                    
+                    <strong>Время работы:</strong><br>ежедневно с 9:00 до 21:00
+                </div>
+            </div>
+            <hr class="my-4">
+            <p class="text-center mb-0">© 2025 ASTSY PETS. Все права защищены.</p>
+            <div class="text-center mt-2">
+                <a href="https://vk.com" target="_blank" class="btn btn-outline-primary btn-sm mx-1">
+                    VK
+                </a>
+                <a href="https://telegram.org" target="_blank" class="btn btn-outline-info btn-sm mx-1">
+                     Telegram
+                </a>
+                <a href="https://instagram.com" target="_blank" class="btn btn-outline-danger btn-sm mx-1">
+                     Instagram
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

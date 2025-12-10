@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Сухой корм Royal Canin",
+    "description": "Премиальный корм для взрослых собак",
+    "price": 2000,
+    "img": "https://dajlapu.by/image/catalog/prod/dlya-sobak/suhoy-korm/royal-canin-frantsiya--rossiya/royalcaninpomeranianadultdry0001.png",
+    "vendor_code": "Сухой корм Royal Canin",
+    "category": "food"
+  },
+  {
+    "id": 2,
+    "title": "Влажный корм Pedigree",
+    "description": "С говядиной и овощами",
+    "price": 800,
+    "img": "https://storage.yandexcloud.net/yac-wh-sb-prod-s3-media-03005/themes/basic/static/home/product_wet_1.webp",
+    "vendor_code": "Влажный корм Pedigree",
+    "category": "food"
+  },
+  {
+    "id": 3,
+    "title": "Резиновые игрушки",
+    "description": "Набор из 3-х игрушек",
+    "price": 400,
+    "img": "https://moyedem.ru/upload/img2picture/upload/resize_cache/iblock/92f/cmh2b70nwg8apcsbgm4gcs51e3nakvj6/400_400_140cd750bba9870f18aada2478b24840a/396038aa_de9e_11ed_b6a3_fae25af50cc4_fbb0e0f4_6750_11ee_b6af_d01be95bc372.jpg.webp",
+    "vendor_code": "Резиновые игрушки",
+    "category": "toys"
+  },
+  {
+    "id": 4,
+    "title": "Ошейники",
+    "description": "Кожаный ошейник с гравировкой",
+    "price": 1800,
+    "img": "https://moyedem.ru/upload/resize_cache/iblock/cee/400_400_140cd750bba9870f18aada2478b24840a/5q4o8oqf6xhagz9sigynl39h64bwd6dy.jpg",
+    "vendor_code": "Ошейники",
+    "category": "accessories"
+  },
+  {
+    "id": 5,
+    "title": "Миски",
+    "description": "Набор из 2-х мисок (нержавеющая сталь)",
+    "price": 1000,
+    "img": "https://triol.pet/media/products/good-75d96352-1c75-11ec-bb9a-1866da6865b2_z1NFjKm.jpg",
+    "vendor_code": "Миски",
+    "category": "accessories"
+  },
+  {
+    "id": 6,
+    "title": "Натуральные лакомства",
+    "description": "Вяленое мясо, 200г",
+    "price": 1200,
+    "img": "https://api.magonline.ru/thumbnail/740x494/12/737/12737.png",
+    "vendor_code": "Натуральные лакомства",
+    "category": "food"
+  }
+]
